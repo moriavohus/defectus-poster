@@ -1,0 +1,341 @@
+body {
+    background: rgb(0, 255, 221);}
+
+    .fon{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        left: 2vw;
+        top: 2vh;
+        z-index: 0;
+        
+    }
+    .home{
+        position: relative;
+        width: 100vw;
+        height: 69vh;
+        top: 0vw;
+        left: 0vw;
+        z-index: 1;
+    }
+
+    .sini{
+        position: absolute;
+        left: 1vw;
+        top: 0vw;
+        width: 97.85vw;
+        height: 69.51vw;
+    }
+
+    .defectus{
+        position: absolute;
+        left:2vw;
+        top: 4vw;
+        width: 77.57vw;
+        height: 38.33vw;
+    }
+    .online{
+        position: absolute;
+        top: 90vh;
+        left: 63vw;
+        width: 31.04vw;
+        height: 8.40vw;
+        z-index: 100;
+    }
+    .rules{
+        position: relative;
+        width: 100vw;
+        height: 187vh;
+        left: 0vw;
+        top: 50vh;
+    }
+
+    .ruoles{
+        position: absolute;
+        top: 15vw;
+        left:14.7vw;
+        width: 30.21vw;
+        height: 1.8vw;
+    }    
+    .zhelt{
+        position: absolute;
+        width: 99vw;
+        height: 68.75vw;
+        left: 0vw;
+        top: 10vw;
+    }
+    .pravila{
+        position: absolute;
+        z-index: 1;
+        top: 12vw;
+        left: 7vw;
+        width: 68.13vw;
+        height: 47.08vw;
+    }
+    .repka{
+        position: absolute;
+        height: 26.60vw;
+        width: 20.90vw;
+        top: 4vw;
+        left: 11.25vw;  
+    }
+
+
+    .one{
+        position: absolute;
+    }
+    .img1{
+        position: absolute;
+        height: 26.60vw;
+        width: 20.90vw;
+        top: 4vw;
+        left: 11.25vw;
+    }
+    .repka{
+        position: absolute;
+        height: 26.60vw;
+        width: 20.90vw;
+        top: 4vw;
+        left: 11.25vw;
+    }    
+    .repka:hover{ 
+        display:none;
+        position: absolute;
+        height: 26.60vw;
+        width: 20.90vw;
+        top: 4vw;
+        left: 11.25vw;
+    }
+
+
+   
+    .tremorkovka2{
+        position: absolute;
+        height: 44.51vw;
+        width: 38.68vw;
+        top: 144vw;
+        left: 30.69vw; 
+    }
+    .tremorkovka{
+        position: absolute;
+        height: 44.51vw;
+        width: 38.68vw;
+        top: 144vw;
+        left: 30.69vw; 
+    }
+    .tremorkovka:hover{
+        display: none;
+        position: absolute;
+        height: 44.51vw;
+        width: 38.68vw;
+        top: 144vw;
+        left: 30.69vw; 
+    }
+
+
+
+    .dlinmorkovka2{
+        position: absolute;
+        height: 68.75vw;
+        width: 15.69vw;
+        top: 144vw;
+        left: 72.99vw;   
+    }
+    .dlinmorkovka{
+        position: absolute;
+        height: 68.75vw;
+        width: 15.69vw;
+        top: 144vw;
+        left: 72.99vw;   
+    }
+    .dlinmorkovka:hover{
+        display: none;
+        position: absolute;
+        height: 68.75vw;
+        width: 15.69vw;
+        top: 144vw;
+        left: 72.99vw;   
+    }
+
+
+
+
+
+    .ogurechek2{
+        position: absolute;
+        height: 19.44vw;
+        width: 9.79vw;
+        top: 182.29vw;
+        left: 5.76vw; 
+             
+    }
+
+    .ogurechek{
+        position: absolute;
+        height: 19.44vw;
+        width: 9.79vw;
+        top: 182.29vw;
+        left: 5.76vw;    
+    }
+    .ogurechek:hover{
+        display: none;
+        position: absolute;
+        height: 19.44vw;
+        width: 9.79vw;
+        top: 182.29vw;
+        left: 5.76vw;      
+    }
+
+
+
+    .pomidor2{
+        position: absolute;
+        height: 20.42vw;
+        width: 16.60vw;
+        top: 189.03vw;
+        left: 34.65vw;
+    }
+    .pomidor{
+        position: absolute;
+        height: 20.42vw;
+        width: 16.60vw;
+        top: 189.03vw;
+        left: 34.65vw;   
+    }
+    .pomidor:hover{
+        display: none;
+        position: absolute;
+        height: 20.42vw;
+        width: 16.60vw;
+        top: 189.03vw;
+        left: 34.65vw;   
+    }
+
+
+    .perets2{
+        position: absolute;
+        height: 20.28vw;
+        width: 26.46vw;
+        top: 211.88vw;
+        left: 5.69vw;   
+    }
+    .perets{
+        position: absolute;
+        height: 20.28vw;
+        width: 26.46vw;
+        top: 211.88vw;
+        left: 5.69vw;   
+    }
+    .perets:hover{
+        display: none;
+        position: absolute;
+        height: 20.28vw;
+        width: 26.46vw;
+        top: 211.88vw;
+        left: 5.69vw;   
+    }
+
+    .perchik2{
+        position: absolute;
+        height: 20.83vw;
+        width: 26.88vw;
+        top: 227.43vw;
+        left: 48.82vw;
+    }
+    .perchik{
+        position: absolute;
+        height: 20.83vw;
+        width: 26.88vw;
+        top: 227.43vw;
+        left: 48.82vw;
+    }
+    .perchik:hover{
+        display: none;
+        position: absolute;
+        height: 20.83vw;
+        width: 26.88vw;
+        top: 227.43vw;
+        left: 48.82vw;
+    }
+
+    .otsenit{
+        position: relative; 
+        font-family: 'Forma DGR', sans-serif;
+    }
+
+    /* .repkabol{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%) scale(0);
+        transition: 200ms ease-in-out ;
+        z-index: 15;
+        background-color: none;
+        width: 0vw;
+        max-height: 100vw;
+    }
+    .repkabol.active{
+        transform: translate(-50%,-50%) scale(1);
+    } */
+    .modalbody{
+        position: relative;
+        display: none;
+        z-index: 15;
+    }
+    .modalbodytwo{
+        position: relative;
+        display: none;
+        z-index: 15;
+    }
+    .modalbodythree{
+        position: relative;
+        display: none;
+        z-index: 15;
+    }
+
+    .close{
+        cursor: pointer;
+        border: none;
+        outline: none;
+        background: none;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    .closetwo{
+        cursor: pointer;
+        border: none;
+        outline: none;
+        background: none;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    .closethree{
+        cursor: pointer;
+        border: none;
+        outline: none;
+        background: none;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+   .overlay{
+    pointer-events: none;
+    }
+    .overlay.active{
+        pointer-events: all;
+    }
+    .svg-button{
+        z-index: 10;
+    }
+    .frane{
+        position: relative;
+        display: none;
+        z-index: 20;
+    }
+
+    .crash{
+        border-radius: 50%;
+        background-color: aquamarine;
+        border-color: aquamarine;
+    }
+    
+

@@ -1,0 +1,268 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./stylesheets/style.css" rel="stylesheet" type="text/css"/>
+    <script src="./javascripts/script.js" charset="UTF-8"></script>
+    <script src="./javascripts/jquery.js" charset="UTF-8"></script>
+</head>
+
+<body>
+    <script type="module">
+    $(function () 
+        {
+          $(".img1").click(function () {
+              console.log("img1")
+              $(".modalbody").css("display", "block");
+          });
+  
+          $("#back_about").click(function () {
+              $(".about").hide();
+          });
+  });</script>
+
+<section class="fon">
+    <img src="img/Rectangle 4349.svg" alt="">
+</section>
+<section class="home">
+    <img class="sini" src="img/Group 519.svg" alt="">
+    <img class="defectus" src="img/defectus.svg" alt="">
+    <img class="online" src="img/Group 520.svg" alt="">
+</section>
+ 
+<section class="rules">
+    <img class="zhelt" src="img/zheltfon.svg" alt="">
+    <img class="pravila" src="img/Group 527.png" alt="">
+    <img class="ruoles" src="img/roules.svg" alt="">
+</section>
+
+<div class="one">
+    <img class="img1" src="img/repka2.svg" alt="">
+    <img id="repkaid" class="repka" src="img/repka.svg" alt="">
+</div>
+
+
+
+<div class="two">
+    <img class="tremorkovka2" src="img/tremorkovka2.svg" alt="">
+    <img class="tremorkovka" src="img/tremorkovka.svg" alt="">
+</div>
+
+
+<div class="three">
+    <img class="dlinmorkovka2" src="img/dlinmorkovka2.svg" alt="">
+    <img class="dlinmorkovka" src="img/dlinmorkovka.svg" alt="">
+</div>
+
+
+<div class="four">
+    <img class="ogurechek2" src="img/ogurechek2.svg" alt="">
+    <img class="ogurechek" src="img/ogurechek.svg" alt="">
+</div>
+
+<div class="five">
+    <img class="pomidor2" src="img/pomidor2.svg" alt="">
+    <img class="pomidor" src="img/pomidor.svg" alt="">
+</div>
+
+<div class="six">
+    <img class="perets2" src="img/perets2.svg" alt="">
+    <img class="perets" src="img/perets.svg" alt="">
+</div>
+
+<div class="seven">
+    <img class="perchik2" src="img/perchik2.svg" alt="">
+    <img class="perchik" src="img/perchik.svg" alt="">
+</div>
+<p class="otsenit">оценить</p>
+
+
+
+<button class="svg-button" data-modal-target="#repkabol">Нажми на репку</button>
+<div class="repkabol" id="repkabol">    
+  <div class="modalbody">
+    <img src="img/репболус.png" alt="">    
+    <button data-close-button class="close">&times;</button>
+  </div>
+</div>
+<div class="active" id="overlay"></div>
+
+</body> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./stylesheets/style.css" rel="stylesheet" type="text/css"/>
+    <script src="./javascripts/jquery.js" charset="UTF-8"></script>
+</head>
+
+<body>
+<section class="fon">
+    <img src="img/Rectangle 4349.svg" alt="">
+</section>
+<section class="home">
+    <img class="sini" src="img/Group 519.svg" alt="">
+    <img class="defectus" src="img/defectus.svg" alt="">
+    <img class="online" src="img/Group 520.svg" alt="">
+</section>
+ 
+<section class="rules">
+    <img class="zhelt" src="img/zheltfon.svg" alt="">
+    <img class="pravila" src="img/Group 527.png" alt="">
+    <img class="ruoles" src="img/roules.svg" alt="">
+</section>
+
+
+ галерея
+<div class="one">
+    <img class="img1" src="img/repka2.svg" alt="">
+    <img id="repkaid" class="repka" src="img/repka.svg" alt="">
+</div>
+<div class="two">
+    <img class="tremorkovka2" src="img/tremorkovka2.svg" alt="">
+    <img class="tremorkovka" src="img/tremorkovka.svg" alt="">
+</div>
+
+
+<div class="three">
+    <img class="dlinmorkovka2" src="img/dlinmorkovka2.svg" alt="">
+    <img class="dlinmorkovka" src="img/dlinmorkovka.svg" alt="">
+</div>
+
+
+<div class="four">
+    <img class="ogurechek2" src="img/ogurechek2.svg" alt="">
+    <img class="ogurechek" src="img/ogurechek.svg" alt="">
+</div>
+
+<div class="five">
+    <img class="pomidor2" src="img/pomidor2.svg" alt="">
+    <img class="pomidor" src="img/pomidor.svg" alt="">
+</div>
+
+<div class="six">
+    <img class="perets2" src="img/perets2.svg" alt="">
+    <img class="perets" src="img/perets.svg" alt="">
+</div>
+
+<div class="seven">
+    <img class="perchik2" src="img/perchik2.svg" alt="">
+    <img class="perchik" src="img/perchik.svg" alt="">
+</div>
+
+<div class="modalbody">
+    <img src="img/репболус.png" alt=""> 
+    <button class="crash">оценить</button> 
+    <button class="crash">съесть</button> 
+    <button class="crash">исправить</button>
+    <button data-close-button class="close">&times;</button>
+</div>
+
+<div class="modalbodytwo">
+    <img src="img/моркминог.png" alt=""> 
+    <button class="crash">оценить</button> 
+    <button class="crash">съесть</button> 
+    <button class="crash">исправить</button>
+    <button data-close-button class="closetwo">&times;</button>
+</div>
+
+<div class="modalbodythree">
+    <img src="img/сверловь.png" alt=""> 
+    <button class="crash">оценить</button> 
+    <button class="crash">съесть</button> 
+    <button class="crash">исправить</button>
+    <button data-close-button class="closethree">&times;</button>
+</div>
+
+
+ <img class="frane" src="img/Frame 665.png" alt="">
+
+<script src="./javascripts/script.js" charset="UTF-8"></script>
+<script>
+
+$(function () {
+        $(".dlinmorkovka2").click(function () {
+            console.log("dlinmorkovka")
+            $(".modalbodythree").css("display", "block");
+        });
+        
+        $("#back_about").click(function () {
+            $(".about").hide();
+        });
+    });
+
+
+    $(function () {
+        $(".closethree").click(function () {
+            console.log("close")
+            $(".modalbodythree").css("display", "none");
+        });
+        
+        $("#back_about").click(function () {
+            $(".about").hide();
+        });
+    });
+
+
+
+        $(function () {
+        $(".tremorkovka2").click(function () {
+            console.log("tremorkovka")
+            $(".modalbodytwo").css("display", "block");
+        });
+        
+        $("#back_about").click(function () {
+            $(".about").hide();
+        });
+    });
+
+    $(function () {
+        $(".repka").click(function () {
+            console.log("repka")
+            $(".modalbody").css("display", "block");
+        });
+        
+        $("#back_about").click(function () {
+            $(".about").hide();
+        });
+    });
+    $(function () {
+        $(".crash").click(function () {
+            console.log("crash")
+            $(".frane").css("display", "block");
+        });
+        
+        $("#back_about").click(function () {
+            $(".about").hide();
+        });
+    });
+
+    $(function () {
+        $(".close").click(function () {
+            console.log("close")
+            $(".modalbody").css("display", "none");
+        });
+        
+        $("#back_about").click(function () {
+            $(".about").hide();
+        });
+    });
+
+    $(function () {
+        $(".closetwo").click(function () {
+            console.log("close")
+            $(".modalbodytwo").css("display", "none");
+        });
+        
+        $("#back_about").click(function () {
+            $(".about").hide();
+        });
+    });
+</script>
+</body>
+</html>
+
